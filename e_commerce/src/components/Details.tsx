@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { useParams } from "react-router-dom";
 
 function Details() {
+
     const guitar = useParams()
     const guitarIndex: number = chitarre.findIndex((item) => item.id == guitar.id)
 
@@ -30,7 +31,7 @@ function Details() {
                   {/* <Link to={`/details/${chitarre[guitarIndex].id}`}> */}
                     <Button>Dettagli</Button>
                   {/* </Link> */}
-                  <Button>Acquista</Button>
+                  <Button onClick={() => console.log('Prodotto aggiunto da Details')}>Acquista</Button>
                 </div>
             </Card>
           </Col>
@@ -39,5 +40,4 @@ function Details() {
     </>
     )
 }
-
 export default Details

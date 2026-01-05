@@ -2,8 +2,14 @@ import { chitarre } from './chitarre';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-function Products() {
+function Products(carrello: number, setCarr: any) {
     console.log(chitarre);
+
+    let cart = carrello.carrello
+
+    console.log('Carrello', cart);
+    
+    const handleCart = () => {setCarr(...cart, cart++)}
     
   return (
     <>
@@ -20,7 +26,7 @@ function Products() {
                 src={chitarra.immagine}
                 className="py-2"
               />
-              <Card.Body className="h-100 border border-2 border-black rounded rounded-2 ">
+              <Card.Body className="border border-2 border-black rounded rounded-2 vstack justify-content-between">
                 <Card.Title className='h-25 mb-4'>{chitarra.nome} </Card.Title>
                 <Card.Text>{chitarra.descrizione}</Card.Text>
                 <Card.Text>
@@ -32,7 +38,10 @@ function Products() {
                   <Link to={`/details/${chitarra.id}`}>
                     <Button>Dettagli</Button>
                   </Link>
-                  <Button>Acquista</Button>
+                  <Button onClick={() => {
+                    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+                    handleCart++
+                    console.log('Prodotto aggiunto da Products', cart)}}>Acquista</Button>
                 </div>
             </Card>
           </Col>))}

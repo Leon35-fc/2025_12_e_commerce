@@ -11,11 +11,19 @@ export const chitarre = [
   },
   {
     id: ids,
+    nome: 'Gibson 70s Explorer Antique Natural',
+    descrizione: 'La Gibson Explorer è una chitarra elettrica a forma di V, prodotta da Gibson dal 1958.',
+    brand: 'Gibson',
+    immagine: 'https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_56/569667/18766618_800.jpg',
+    prezzo: 2400
+  },
+  {
+    id: ids,
     nome: 'Gibson Les Paul Standard 50s TB',
     descrizione: 'Chitarra elettrica con suono caldo e ricco',
     brand: 'Gibson',
     immagine:
-      'https://thumbs.static-thomann.de/thumb/thumb248x248/pics/prod/462507.jpg',
+    'https://thumbs.static-thomann.de/thumb/thumb248x248/pics/prod/462507.jpg',
     prezzo: 2500.0
   },
   {
@@ -24,7 +32,7 @@ export const chitarre = [
     descrizione: 'Chitarra elettrica veloce e versatile',
     brand: 'Ibanez',
     immagine:
-      'https://thumbs.static-thomann.de/thumb/thumb248x248/pics/prod/429086.jpg',
+    'https://thumbs.static-thomann.de/thumb/thumb248x248/pics/prod/429086.jpg',
     prezzo: 600.0
   },
   {
@@ -33,7 +41,7 @@ export const chitarre = [
     descrizione: 'Chitarra elettrica con suono rock',
     brand: 'Epiphone',
     immagine:
-      'https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_48/483482/15755586_800.jpg',
+    'https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_48/483482/15755586_800.jpg',
     prezzo: 300.0
   },
   {
@@ -82,28 +90,20 @@ export const chitarre = [
     prezzo: 2000.0
   },
   {
-    id: ids,
-    nome: 'Ibanez S570',
-    descrizione: 'Chitarra elettrica con suono versatile',
+    id: ids ,
+    nome: 'Ibanez PS60-SSL',
+    descrizione: 'La Ibanez PS60-SSL è una chitarra elettrica prodotta da Ibanez.',
     brand: 'Ibanez',
-    immagine: '',
-    prezzo: 700.0
+    immagine: 'https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_43/431132/18275849_800.jpg',
+    prezzo: 351
   },
   {
-    id: ids,
-    nome: 'Epiphone Les Paul Special II',
-    descrizione: 'Chitarra elettrica con suono classico',
-    brand: 'Epiphone',
-    immagine: '',
-    prezzo: 250.0
-  },
-  {
-    id: ids,
-    nome: 'Jackson Dinky DK2M',
-    descrizione: 'Chitarra elettrica con suono metal',
+    id: ids ,
+    nome: 'Jackson Pro Series Mark Heylmun RR24-7',
+    descrizione: 'La Jackson Rhoads Pro è una variante della Randy Rhoads con humbucker Seymour Duncan.',
     brand: 'Jackson',
-    immagine: '',
-    prezzo: 900.0
+    immagine: 'https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_56/560637/18202456_800.jpg',
+    prezzo: 1190
   },
   {
     id: ids,
@@ -125,14 +125,6 @@ export const chitarre = [
   },
   {
     id: ids,
-    nome: 'Fender Mustang',
-    descrizione: 'Chitarra elettrica con suono alternativo',
-    brand: 'Fender',
-    immagine: '',
-    prezzo: 700.0
-  },
-  {
-    id: ids,
     nome: 'Gibson ES-335',
     descrizione: 'Chitarra elettrica con suono jazz',
     brand: 'Gibson',
@@ -148,6 +140,29 @@ export const chitarre = [
     immagine:
       'https://thumbs.static-thomann.de/thumb/thumb248x248/pics/prod/582074.jpg',
     prezzo: 1000.0
-  }
+  },
+  {
+    id:ids,
+    nome: 'Gibson Dave Mustaine Flying V AN',
+    descrizione: 'La Gibson Flying V è una chitarra elettrica a forma di V, prodotta da Gibson dal 1958.',
+    brand: 'Gibson',
+    immagine: 'https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_53/530673/18361298_800.jpg',
+    prezzo: 2300
+  },
+  {
+    id: ids,
+    nome: 'Jackson American SRS RR24 SW',
+    descrizione: 'La Jackson Randy Rhoads è una chitarra elettrica a forma di V, progettata da Randy Rhoads e prodotta da Jackson Guitars.',
+    brand: 'Jackson',
+    immagine: 'https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_62/620299/20541771_800.jpg',
+    prezzo: 2590
+  },
+  {
+    id: ids ,
+    nome: 'Jackson Pro Jeff Loomis Kelly Ash BK',
+    descrizione: 'La Jackson Kelly è una chitarra elettrica a forma di V, prodotta da Jackson Guitars.',
+    brand: 'Jackson',
+    immagine: 'https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_48/483928/20539812_800.jpg',
+    prezzo: 1490
+  },
 ];
-

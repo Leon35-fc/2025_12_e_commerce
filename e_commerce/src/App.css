@@ -49,12 +49,22 @@ nav:hover{
   transform: scaleY(1.02)
 }
 
+nav a:hover{
+  transition: background-color 0.9s;
+  background-color: rgb(165, 100, 245, 0.7);
+}
+
 .card:hover{
-  transition: transform 0.7s, background-color 0.5s;
-  background-color: chartreuse;
+  transition: transform cubic-bezier(0.455, 0.03, 0.515, 0.955) .6s, background-color 3s;
+  background: linear-gradient(rgba(165, 100, 245, 0.7),lightgray);
   transform: scale(1.01);
 }
 
 .price{
   font-weight: bold;
 }
+
+/* .card img:hover{
+  transition: radial-gradient 5s;
+  mask-image: radial-gradient(circle, black 68%, rgba(255, 255, 255, 0) 10%);
+} */
